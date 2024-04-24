@@ -1,3 +1,7 @@
 # Jeffery_NLP_Final
 
-This is a repo created for the NLP final paper which contains all the codes and information that are used to generate the final paper
+This is a repo created for the NLP final paper which contains all the codes and information that are used to generate the final paper.
+
+Abstract:
+
+Assessment through testing is vital for educators, as it is the pri- mary method to evaluate students' understanding of their corresponding subjects. In this regard, it is essential to create well- structured and high-quality exams catering to different domain knowledge levels. Many educators employ Bloom's taxonomy, cat- egorizing educational goals across cognitive, affective, and psychomotor domains. However, existing research primarily fo- cuses on classifying questions into broad domains, leading to a need for more models that distinguish between categories and their sub- categories. This paper aims to develop a classification model that categorizes questions from the popular quiz show Jeopardy into a distinct category (History) and its subcategory (American History). Utilizing a bag of words approach, this study calculates Term Fre- quency - Inverse Document Frequency (TF-IDF), a statistical measure indicating the importance of a word within a corpus. This TF-IDF matrix is then used to train a logistic regression model to classify the questions, drawing on a dataset of 1,167 clues from 'History' and 1,216 from 'American History.' The outcome demon- strates a 78.6% accuracy rate, suggesting that semantic vectors generated through TF-IDF can effectively discriminate between a main category and its subcategory in Jeopardy.
